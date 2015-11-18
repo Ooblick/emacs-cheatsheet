@@ -18,7 +18,6 @@ In iTerm2, I have the following keys bound:
 # Emacs Binds
 
 ## Movement
-
 Key      | Meaning              | Key     | Meaning
 ---------|----------------------|---------|--------
 `C-n`    | Next line            |`M-gg`   | GOTO line num
@@ -38,9 +37,19 @@ Key       | Meaning                  | Key     | Meaning
 `C-ed`    | Join lines below         |         |
 `C-x z`   |
 
+## Searching
+Key        | Meaning                  | Key     | Meaning
+-----------|--------------------------|---------|--------
+`C-s`      | Search forward as-typing |`C-s`    | Backwards search
+`C-M-s`    | Begin regexp search      |`C-M-r`  | Backwards regexp search
+`M-b C-sws`| Search for word under csr|         |
+
 ## Mangling
 Key       | Meaning                  | Key     | Meaning
 ----------|--------------------------|---------|--------
+`C-t`     | Transpose two chars      |`M-t`    | Transpose two words
+`C-xt     | Transpose two lines      |`M-c`    | Make first letter UC
+`M-u`     | Uppercase rest of word   |`M-l`    | Lowercase rest of word
 `C-k`     | DEL rest of line         |`C-ak`   | DEL line
 `C-x DEL` | DEL to start of sentence |`M-k`    | DEL to end of sentence
 `M-d`     | DEL next word            |`M-DEL`  | DEL previous word
@@ -57,6 +66,8 @@ Key       | Meaning                  | Key     | Meaning
 `C-xk`    | Kill buffer              |`C-ak`   | DEL line
 `C-x2`    | Split buf vertical       |`C-x3`   | Split buf horizontal
 `C-x0`    | Close current buffer     |         |
+
+
 
 ### Notes:
 #### Movement
