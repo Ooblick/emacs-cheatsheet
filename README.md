@@ -46,6 +46,11 @@ Key       | Meaning                  | Key     | Meaning
 `M-d`     | DEL next word            |`M-DEL`  | DEL previous word
 `M-z CHR` | DEL to next occurring CHR|`C-SPC`  | DEL leading spaces
 
+## Markers
+Key       | Meaning                  | Key     | Meaning
+----------|--------------------------|---------|--------
+`C-SPCSPC`|Set mark, do not activate | C-uSPC  | GOTO marker
+
 ## Window Management
 Key       | Meaning                  | Key     | Meaning
 ----------|--------------------------|---------|--------
