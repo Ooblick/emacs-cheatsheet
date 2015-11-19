@@ -32,7 +32,7 @@ Key      | Meaning              | Key     | Meaning
 ## Selection (copy, paste, kill)
 Key       | Meaning                  | Key     | Meaning
 ----------|--------------------------|---------|--------
-`C-SPC`   | Start visual             |         |
+`C-SPC`   | Start visual             |`M-w`    | Copy (save to kill ring)
 `C-w`     | Kill selection           |`C-y`    | Paste (yank)
 `C-ed`    | Join lines below         |         |
 `C-x z`   |
