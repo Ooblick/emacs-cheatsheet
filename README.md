@@ -44,6 +44,13 @@ Key        | Meaning                  | Key     | Meaning
 `C-M-s`    | Begin regexp search      |`C-M-r`  | Backwards regexp search
 `M-b C-sws`| Search for word under csr|         |
 
+## Replacing
+Key        | Meaning                  | Key     | Meaning
+-----------|--------------------------|---------|--------
+`M-%`      | Begin search replace     |         |
+`SPC`      | Replace & goto next      |`.`      |Skip result, goto next
+`!`        | Replace all              |`^`      |Go back to prev replace loc
+
 ## Mangling
 Key       | Meaning                  | Key     | Meaning
 ----------|--------------------------|---------|--------
