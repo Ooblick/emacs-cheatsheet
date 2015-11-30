@@ -7,7 +7,7 @@
 
 When either command should be released before entering another keystroke, this is represented by a space, e.g.:
 
-`C-x z` -- which means "press & hold `ctrl`, then press `x`, then release `ctrl` and press `x`. When there's no space, keep `ctrl` held.
+`C-x z` -- which means "press & hold `ctrl`, then press `x`, then release `ctrl` and press `z`. When there's no space, keep `ctrl` held.
 
 ### iTerm2 Setup for OSX
 In iTerm2, I have the following keys bound:
