@@ -55,7 +55,7 @@ Key        | Meaning                  | Key     | Meaning
 Key       | Meaning                  | Key     | Meaning
 ----------|--------------------------|---------|--------
 `C-t`     | Transpose two chars      |`M-t`    | Transpose two words
-`C-xt     | Transpose two lines      |`M-c`    | Make first letter UC
+`C-xt`    | Transpose two lines      |`M-c`    | Make first letter UC
 `M-u`     | Uppercase rest of word   |`M-l`    | Lowercase rest of word
 `C-k`     | DEL rest of line         |`C-ak`   | DEL line
 `C-x DEL` | DEL to start of sentence |`M-k`    | DEL to end of sentence
